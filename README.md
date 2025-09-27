@@ -164,7 +164,7 @@ Sends the current tempo as an int on channel `start_channel` and a looping count
 - `sacn.source_name <string>` Max 63 ASCII chars to show as name of sender
 
 # All OSC Addresses
-`[deck]` can be `master` for the current active deck or an index (`1|2|3|4`) for a specific deck, if enabled. 
+`[deck]` can be `master` for the current active deck or an index (`0|1|2|4`) for a specific deck, if enabled. 
  - `/bpm/[deck]/current` (float) Current BPM of the master deck
  - `/bpm/[deck]/original` (float) Original (non-pitched) BPM of the master deck
  - `/beat/[deck]` (float) Total beat / number of beats since beat 1.1
